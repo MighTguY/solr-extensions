@@ -10,7 +10,7 @@ import org.junit.Rule;
 import org.junit.Test;
 import org.junit.rules.ExpectedException;
 
-public class ConcatPhraseFilterTest extends BaseTokenStreamTestCase {
+public class ExtPhraseFilterTest extends BaseTokenStreamTestCase {
 
   @Rule
   public ExpectedException exceptionRule = ExpectedException.none();
